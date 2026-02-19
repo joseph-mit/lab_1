@@ -148,16 +148,30 @@ textarea {
 
 /* Resume */
 #resume {
+  margin-top: 1.5rem;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  background: oklch(88% 0.02 200);
+
   display: grid;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 1.25rem;
 }
 
-#resume section {
-  padding: 1em;
-  border: 1px solid var(--border-gray);
-  background: var(--surface);
-  border-radius: 0.5em;
+#resume > section {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 0.75rem 1.5rem oklch(0% 0 0 / 0.12);
+}
+
+#resume h2 {
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+#resume p {
+  margin: 0;
 }
 
 #resume ul {
